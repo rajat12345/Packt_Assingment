@@ -1,0 +1,17 @@
+Follow Up Questions
+1. Why did you use this particular tool?
+-> Easy to use
+-> For UI flows Recording is easy and crisp.
+-> Complete Scripting is divided into number of sections(Pre processors , post processors, controllers etc)
+
+2. How did you create /refactor the test script?
+-> Recorder The script using badboy tool.
+-> Removed the third party call.
+-> Added listners to the Thread Group
+-> Added Content check to verify the Response. 
+
+3. What can you analyse from the report?
+-> From the Response time graph ,As users are increasing Response time is increasing.
+-> Getting 5xx "Internal Server Error". After 22 User Failures started , Probably we are hitting more load as per the server capacity.
+-> Throughput was increasing simultaneously with the users. 
+ 
